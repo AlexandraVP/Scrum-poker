@@ -1,0 +1,28 @@
+.button {
+    font-size: 16px;
+    font-weight: 200;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.button_type_secondary {
+    background-color: white;
+    border: 1px solid lightgray;
+    color: dimgrey;
+}
+
+.button_type_secondary:hover {
+    background-color: #F8F8F8;
+}
+
+.button_type_primary {
+    background-color: #4eabc0;
+    color: white;
+    border: 1px solid #4eabc0;
+}
